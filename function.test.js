@@ -1,4 +1,4 @@
-import { capitalize, reverseString, calculator, caesarCipher } from "./function";
+import { capitalize, reverseString, calculator, caesarCipher, analyzeArray } from "./function";
 
 const calc = calculator();
 
@@ -38,3 +38,11 @@ test('punctuation', () => {
     expect(caesarCipher('dog is playing.', 1)).toMatch(/eph jt qmbzjoh./);
 });
 
+test('array info', () => {
+    expect(analyzeArray([1,8,3,4,2,6])).toEqual({
+        average: 4,
+        min: 1,
+        max: 8,
+        length: 6
+    });
+});

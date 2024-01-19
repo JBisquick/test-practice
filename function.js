@@ -64,4 +64,14 @@ function chipherChar(char, key) {
   return char;
 }
 
-export { capitalize, reverseString, calculator, caesarCipher };
+function analyzeArray(array) {
+  const average = array.reduce((accumulator, currentValue) => accumulator 
+  + currentValue, 0) / array.length;
+  const length = array.length;
+  array.sort((a, b) => a - b);
+  const min = array[0];
+  const max = array[array.length - 1];
+  return { average, length, max, min }
+}
+
+export { capitalize, reverseString, calculator, caesarCipher, analyzeArray };
