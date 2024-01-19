@@ -1,0 +1,25 @@
+{
+  "name": "odin-test-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBisquick/odin-test-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JBisquick/odin-test-practice/issues"
+  },
+  "homepage": "https://github.com/JBisquick/odin-test-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
